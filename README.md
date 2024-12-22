@@ -16,18 +16,6 @@ This program compares the performance of three search engine methods: **TF-IDF**
 Place the dataset file (`British_Airway_Review.csv`) in the root directory. The file should contain a `reviews` column with textual reviews for analysis.
 
 
-## How to Use
-
-1. Run the script:
-   ```bash
-   python <script_name>.py
-   ```
-2. Enter a search query when prompted.
-3. The program will display:
-   - Top results for each method.
-   - A rank comparison table.
-   - Rank displacement details.
-
 ## Example Output
 
 **Query**: `Enter your search query: "excellent service"`
