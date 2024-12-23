@@ -10,15 +10,13 @@ This program compares the performance of three search engine methods: **TF-IDF**
 - **Rank Comparison**: Analyzes top results from each method to find common documents, unique documents, and rank displacements.
 - **Rank Displacement Details**: Calculates displacement metrics for result ranking differences across methods.
 
-
 ## Dataset
 
 Place the dataset file (`British_Airway_Review.csv`) in the root directory. The file should contain a `reviews` column with textual reviews for analysis.
 
-
 ## Example Output
 
-**Query**: `Enter your search query: "excellent service"`
+**Query**: `Enter your search query: "business class experience"`
 
 **Results**:
 - Top-ranked reviews for TF-IDF, Term Correlation, and LSI.
@@ -33,7 +31,6 @@ Place the dataset file (`British_Airway_Review.csv`) in the root directory. The 
 - `numpy`
 - `nltk`
 
-
 ## Code Highlights
 
 - **TF-IDF Vectorization**: Converts text data into a weighted term-document matrix.
@@ -41,12 +38,9 @@ Place the dataset file (`British_Airway_Review.csv`) in the root directory. The 
 - **Cosine Similarity**: Measures query-document similarity in the LSI space.
 - **Rank Comparison**: Evaluates the overlap and differences between the search results.
 
-
 ## Improvements
 
 - Add support for stemming/lemmatization for better query processing.
 - Enable visualization of rank comparisons using plots.
 - Extend functionality to process larger datasets efficiently.
-
-
 
